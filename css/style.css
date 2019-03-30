@@ -1,0 +1,221 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*------------- header start ---------*/
+.header{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	background-color:#FFD83D;
+	min-height: 400px;
+	overflow: hidden;
+}
+/*---------- head start ----------*/
+.container{
+	width:70%;
+	min-height: 100px;
+	/*background-color: green;*/
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid black;*/
+}
+.head{
+	margin-top: 40px;
+	/*border: 1px solid black;*/
+}
+.logo{
+	width:30%;
+	min-height: 55px;
+	float:left;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.logo img{
+	width: 20%;
+	float: left;
+	/*border: 1px solid black;*/	
+}
+.logo h1{
+	width: 60%;
+    float: right;
+    /*border: 1px solid black;*/
+    margin: 0px 55px 0px 0px;
+    font-size: 50px;
+}
+.nav{
+	width:60%;
+	min-height: 70px;
+	float:right;
+	/*border: 1px solid black;*/
+}
+.nav ul{
+	margin-left: 260px;
+}
+.nav ul li{
+	list-style: none;
+	float:left;
+	padding-left: 67px;
+	/*border: 1px solid black;*/
+}
+.nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+/*--------------- head end -------*/
+/*------------- content start -----*/
+.content{
+	margin-top: 30px;
+	/*border: 1px solid black;*/
+}
+.section1{
+	width: 36%;
+	float:left;
+	/*border: 1px solid black;*/
+}
+.section1 h1{
+	color: black;
+	margin-top: 70px;
+
+}
+.section1,h3,p{
+	color: #696a6b;
+}
+.section1 ul{
+	float: left;
+    width: 68px;
+    font-size: 50px;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.section2{
+	width: 40%;
+	float:right;
+	/*border: 1px solid black;*/
+}
+.section2 img{
+	float: right;
+	width: 60%;
+	margin-right: 24px;
+	padding-bottom: 70px;
+}
+.radio{
+	width:5%;
+	margin:50px auto;
+	/*border: 1px solid black;*/
+	margin-top: 50px;
+}
+/*----------- content end ---------*/
+/*---------------- header end ----------*/
+/*--------- aside satrt--------------*/
+.tinion_hed{
+	width: 60%;
+	margin:0 auto;
+	/*border: 1px solid black;*/
+	margin-top: 80px;
+}
+.align{
+	text-align: center;
+}
+/*------------------- blog start----------------*/
+.blog{
+	width:100%;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+
+}
+.single_blog{
+	width: 33%;
+    /*border: 1px solid black;*/
+    margin-top: 71px;
+    min-height: 170px;
+    float: left;
+    padding-right: 0px;
+}
+/*.single_blog:last-child{
+	padding: 0;
+	background-color: red;
+	margin-right: 0;
+}*/
+.icon{
+	width: 10%;
+    /*border: 1px solid black;*/
+    float: left;
+    font-size: 35px;
+    margin-top: 17px;
+}
+
+..icon i{
+	width: 100%;
+}
+.pragraph{
+	width: 85%;
+    /*border: 1px solid black;*/
+    float: right;
+    margin: 0px 3px 0px 0px;
+}
+.pragraph h1{
+	font-size: 20px;
+}
+
+/*--------------- blog end -----------------*/
+/*------------- aside end-----------*/
+/*------------- footer start -----------*/
+.footer{
+	background-color:black;
+	min-height: 800px;
+}
+.footer_top{
+	width: 54%;
+    border: 1px solid black;
+    margin: 170px auto;
+    text-align: center;
+}
+.pra h2{
+	color:yellow;
+}
+.pra p{
+	color: gray;
+}
+.email{
+	width: 100%;
+	margin: 0 auto;
+}
+.email input{
+	width: 76%;
+    height: 29px;
+    border-radius: 6px;
+    margin: 15px 10px 50px 0px;
+    border: none;
+    background-color:white;
+}
+.email button{
+	width: 13%;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    background-color: yellow;
+
+}
+.social_icon a{
+	color: #FFD83D;
+	font-size: 30px;
+	padding-right: 20px;
+}
+.footer_down{
+	overflow: hidden;
+}
+.single_pra{
+	width: 15%;
+    border: 1px solid black;
+    line-height: 2px;
+    float:left;
+    padding-right: 50px;
+}
+.single_pra p{
+	/*width: 20%;*/
+	font-size: 13px;
+	color: white;
+	line-height: 8px;
+}
+/*------------- footer end--------------*/
